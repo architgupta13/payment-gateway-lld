@@ -33,4 +33,5 @@ public class OnboardingServiceImpl implements OnboardingService {
     public Client getClient(String clientId) {
         return this.clientRepository.getClient(clientId);
     }
+
 }
